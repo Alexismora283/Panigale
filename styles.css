@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 20px 0;
+    text-align: center; /* Asegura que el texto dentro de cada sección esté centrado */
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+button, select {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #c00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+select {
+    background-color: white;
+    color: black;
+}
+
+img {
+    display: block;
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    max-width: 100%; /* Asegura que la imagen no se salga del ancho de la pantalla */
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #555;
+}
